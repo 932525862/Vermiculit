@@ -1,0 +1,332 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "products": "Mahsulotlar",
+    "production": "Ishlab chiqarish",
+    "gallery": "Galereya",
+    "usage": "Foydalanish",
+    "contact": "Bog'lanish",
+    "language": "Til"
+  },
+  "home": {
+    "title": "Xush kelibsiz",
+    "description": "Ko'proq bilib oling",
+    "hero": {
+      "title": "Vermiculit",
+      "subtitle": "",
+      "lead": "Konstruktsiya, qishloq xo'jaligi va sanoat sohalari uchun yuqori sifatli kontsentrat va kengaytirilgan vermiculite yetkazib beruvchisi"
+    },
+    "whyChooseUs": "Nega biz?",
+    "whyChooseUsDesc": "Qazilgan tajribamiz va zamonaviy qayta ishlash texnologiyasini birlashtirib, premium vermiculite mahsulotlarini taqdim etamiz",
+    "expertMining": "Tajribali Qazish",
+    "expertMiningDesc": "Yuqori sifatli qomat vermiculite qazilishini ta'minlovchi zamonaviy qaziladigan ishchilar, atrof-muhitga minimal ta'sir ko'rsatadi",
+    "advancedProcessing": "Ilg'or Qayta Ishlash",
+    "advancedProcessingDesc": "Premium kontsentrat va kengaytirilgan vermiculite mahsulotlarini ishlab chiqarish uchun zamonaviy qayta ishlash muassasalari",
+    "globalDistribution": "Global Tarqatish",
+    "globalDistributionDesc": "Qurilish, qishloq xo'jaligi va sanoat sohalarida xizmat ko'rsatuvchi ishonchli dunyo bo'ylab yetkazib berish tarmog'i",
+    "ourProducts": "Bizning Mahsulotlar",
+    "ourProductsDesc": "Turli xil nisbatlar uchun premium vermiculite yechimlari",
+    "concentrateVermiculite": "Kontsentrat Vermiculite",
+    "expandedVermiculite": "Kengaytirilgan Vermiculite",
+    "highPurity": "Yuqori sof mineral kontsentrati",
+    "idealForProcessing": "Boshqa qayta ishlash uchun ideal",
+    "variousGrades": "Turli xil darajali spetsifikatsiyalar",
+    "lightweight": "Yengil va izolyatsion",
+    "fireResistant": "O't-toza xususiyatlari",
+    "readyForUse": "Darhol foydalanishga tayyor",
+    "learnMore": "Ko'proq bilib oling",
+    "readyToPartner": "Biz bilan hamkorlik qilishga tayyormisiz?",
+    "readyToPartnerDesc": "Bugun bizning jamoa bilan vermiculite talablarini muhokama qilish va shaxsiylashtirilgan taklif olish uchun bog'laning",
+    "getInTouch": "Bog'lanish"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "subtitle": "Vermiculit sanoatida o'nlik tajriba bilan liderlik qilamiz",
+    "story": {
+      "heading": "Bizning tarix",
+      "paragraph1": "Dunyo bo'ylab vermiculite taklif qiluvchining birinchi bo'lish uchun xayol bilan tashkil etilgan, bizning kompaniya bitta qazish operatsiyasidan to'liq integrallashtirilgan qazish va qayta ishlash korxonasiga o'tib ketdi.",
+      "paragraph2": "Zamonaviy muassasalar va sifatga sodiqlik bilan, biz qurilish, qishloq xo'jaligi, bog'dorchilik, izolyatsiya va sanoat sektorilaridagi mijozlarga dunyo bo'ylab yuqori darajali vermiculite mahsulotlarini chiqaramiz, qayta ishlaymiz va tarqatapmiz.",
+      "paragraph3": "Bizning muvaffaqiyat uchta ustunga qurilgan: istisnoli sifat standartlari, barqaror qazish amaliyotlari va o'zgarmas xizmat ko'rsatish. Biz sanoat liderlaridagi o'rinimizni saqlab qolish uchun texnologiya va kadrlar o'qitishiga doimiy sarmoya kiritamiz."
+    },
+
+    
+    "mission": {
+      "heading": "Missiya va qadriyatlar",
+      "subtitle": "Biz qiladigan hamma ishda mukammalik qiladigan tamoyillar bilan rahbarlik qilamiz",
+      "missionTitle": "Bizning missiya",
+      "missionDesc": "Mas'ul qazish, ilg'or qayta ishlash va istisno tutadigan xizmat ko'rsatish orqali eng yuqori sifatli vermiculite mahsulotlarini taqdim etish, aynida atrof-muhitni muhofaza qilish va barqaror rivojlanishga hissa qoshamiz.",
+      "valuesTitle": "Bizning qadriyatlar",
+      "value1": "Har bir mahsulotda sifat mukammalligi",
+      "value2": "Barqaror va mas'ul operatsiyalar",
+      "value3": "Innovations va doimiy yaxsilitirish",
+      "value4": "Mijozga qaratilgan xizmat"
+    },
+    "export": {
+      "heading": "Vermikulitga bo‘lgan talab va eksport",
+      "subtitle": "Bizning eksport hajmimiz va jahon bozoridagi talab",
+
+      "table": {
+        "number": "№",
+        "country": "Import qiluvchi davlat",
+        "demand": "Talab, t",
+        "exported": "O‘zbekistondan eksport, t",
+        "unmet": "Qondirilmagan talab, t",
+        "total": "Jami"
+      },
+
+      "countries": {
+        "russia": "Rossiya",
+        "ukraine": "Ukraina",
+        "belarus": "Belorussiya",
+        "turkey": "Turkiya",
+        "kazakhstan": "Qozog‘iston",
+        "japan": "Yaponiya",
+        "europe": "Yevropa",
+        "tajikistan": "Tojikiston"
+      },
+
+      "stats": {
+        "totalDemand": "Umumiy talab",
+        "totalExport": "Umumiy eksport",
+        "totalUnmet": "Qondirilmagan talab"
+      }
+    },
+
+    "whatWeDo": {
+      "heading": "Biz nima qilamiz",
+      "subtitle": "Qazish joyidan bozargacha to'liq vermiculite yechimlari",
+      "mining": {
+        "title": "Qazish operatsiyalari",
+        "desc": "Atrof-muhitga minimal ta'sir ko'rsatishni ta'minlab, mahsulotlikni maksimal darajada oshiruvchi zamonaviy qazish usullaridan foydalanib yuqori sifatli vermiculite rudasini chiqarish."
+      },
+      "processing": {
+        "title": "Qayta ishlash",
+        "desc": "Vermiculiteni turli xil sanoat qo'llanmalari uchun aniq spetsifikatsiyalarga tozalash, saralash, kengaytirish va o'rash mumkin bo'lgan ilg'or qayta ishlash muassasalari."
+      },
+      "distribution": {
+        "title": "Tarqatish",
+        "desc": "Vermiculite mahsulotlarini qurilish, qishloq xo'jaligi va sanoat mijozlariga dunyo bo'ylab o'z vaqtida yetkazib beradigan global tarqatish tarmog'i."
+      }
+    },
+    "advantages": {
+      "heading": "Bizning raqobiy afzalliklar",
+      "subtitle": "Vermiculite sanoatida bizni ajratib turadigan narsa",
+      "premium": {
+        "title": "Premium sifat",
+        "desc": "Qat'iy sifat nazorati doimiy, yuqori darajali mahsulotlarni ta'minlaydi"
+      },
+      "equipment": {
+        "title": "Zamonaviy asboblar",
+        "desc": "Qazish va qayta ishlashning zamonaviy texnologiyasi"
+      },
+      "team": {
+        "title": "Tajribali jamoa",
+        "desc": "Vermiculite sanoatida o'nlab yillik birlashtirilgan tajriba"
+      },
+      "sustainable": {
+        "title": "Barqaror amaliyotlar",
+        "desc": "Atrof-muhitga javobgarlikli qazish va qayta ishlash usullari"
+      },
+      "flexible": {
+        "title": "Moslashuvchan ta'minot",
+        "desc": "Shaxsiylashtirilgan spetsifikatsiyalar va to'plash variantlari mavjud"
+      },
+      "global": {
+        "title": "Global davomi",
+        "desc": "Ishonchli xalqaro yetkazib berish va logistika"
+      },
+      "pricing": {
+        "title": "Raqobiy narxlar",
+        "desc": "Qazish joyidan bozargacha to'g'ridan-to'g'ri samaradorlik"
+      },
+      "support": {
+        "title": "Texnik qo'llab-quvvatlash",
+        "desc": "Mahsulot qo'llanmalari uchun mutaxassis maslahat"
+      }
+    }
+
+    
+  },
+  "products": {
+    "title": "Mahsulotlar",
+    "description": "Bizning mahsulotlarimiz"
+  },
+  "production": {
+    "title": "Ishlab chiqarish jarayoni",
+    "description": "Qazilishtirishdan bazarga: bizning to'liq vermiculite qayta ishlash tsikli",
+    "step1": {
+      "title": "Qomat Vermiculite qazish",
+      "description": "Zamonaviy asboblar va barqaror amaliyotlar yordamida bizning ehtiyot bilan boshqariladigan qazish saytlaridan yuqori sifatli vermiculite rudasini chiqarish."
+    },
+    "step2": {
+      "title": "Saralash va tozalash",
+      "description": "Qomat ruda boshlang'ich ekranlashdan o'tadi va katta toshlar va qoldiqlarni olib tashlash."
+    },
+    "step3": {
+      "title": "Kontsentrat ishlab chiqarish",
+      "description": "Puxta vermiculite kontsentratini ajratib olish uchun ilg'or ajratish usullari."
+    },
+    "step4": {
+      "title": "Isitish va kengaytirish",
+      "description": "Kontsentrat vermiculite yuqori haroratli pechiga kirib material 30 barobarga kengayadi."
+    },
+    "step5": {
+      "title": "To'plash va sifat nazorati",
+      "description": "Kengaytirilgan vermiculite sovitiladi va qat'iy sifat tekshiruvidan o'tadi."
+    },
+    "step6": {
+      "title": "Tarqatishga tayyor",
+      "description": "Yakuniy mahsulotlar saqlanadi va butun dunyo bo'ylab tarqatishga tayyorlanadi."
+    }
+    ,
+    "intro": {
+      "heading": "Integratsiyalashgan qayta ishlash mukammalligi",
+      "p1": "Bizning zamonaviy muassasalar an'anaviy qazish tajribasini zamonaviy qayta ishlash texnologiyasi bilan birlashtiradi va premium sifatli vermiculite mahsulotlarini ishlab chiqaradi. Har bir ishlab chiqarish bosqichi doimiy nazorat ostida bo'lib, bir xilda sifat va material xususiyatlarini ta'minlaydi.",
+      "p2": "Xom ruda qazib olishdan yakuniy qadoqlashgacha, bizning vertikal integratsiyalashgan operatsiyalarimiz qat'iy sifat nazorat standartlarini saqlaydi va atrof-muhitni himoya qilishga qaratilgan barqaror amaliyotlarni amalga oshiradi."
+    },
+    "quality": {
+      "heading": "Sifat Nazorati va Standartlar",
+      "testing": {
+        "title": "Sinov usullari",
+        "items": {
+          "item1": "Zarracha o'lchami taqsimoti tahlili",
+          "item2": "Hajm zichligi o'lchovlari",
+          "item3": "Kengayish koeffitsienti tekshiruvi",
+          "item4": "Kimyoviy tarkibni tekshirish",
+          "item5": "Namlik miqdorini aniqlash"
+        }
+      },
+      "standards": {
+        "title": "Sifat Standartlari",
+        "items": {
+          "item1": "ISO sifat boshqaruv tizimlari",
+          "item2": "Sohaga xos sertifikatlar",
+          "item3": "Atrof-muhitga moslik standartlari",
+          "item4": "Mijoz spetsifikatsiyalariga muvofiqlik",
+          "item5": "Doimiy takomillashtirish dasturlari"
+        }
+      }
+    },
+    "commitment": {
+      "title": "Mukammallikka sodiqlik",
+      "text": "Bizning zavodlarda ishlab chiqarilgan har bir partiya keng qamrovli sinovdan o'tadi va sanoat standartlariga javob berishini yoki ularni oshishini ta'minlaydi. Bizning maxsus sifatni nazorat qilish jamoamiz mijozlar kutgan va talab qilgan yuqori standartlarni saqlash uchun uzluksiz ishlaydi."
+    },
+    "sustainability": {
+      "heading": "Barqaror Operatsiyalar",
+      "p": "Biz resurs samaradorligini maksimal darajada oshirish bilan atrof-muhitga ta'sirni minimallashtiradigan mas'ul qazish va qayta ishlash amaliyotlariga sodiqmiz. Operatsiyalarimiz yerni tiklash dasturlari, suvni qayta ishlash tizimlari va energiya tejovchi uskunalarni o'z ichiga oladi.",
+      "stats": {
+        "stat1": { "value": "95%", "label": "Suvni qayta ishlash darajasi" },
+        "stat2": { "value": "100%", "label": "Tabiiy material" },
+        "stat3": { "value": "Nol", "label": "Zaharlik yonma-mahsulotlar" }
+      }
+    }
+  },
+  "gallery": {
+    "subtitle": "Bizning qazish operatsiyalari, qayta ishlash muassasalari va premium vermiculite mahsulotlarini ko'rib chiqing",
+    "items": {
+      "mining": {
+        "title": "Qazish operatsiyalari",
+        "description": "Yuqori sifatli vermiculite rudasini chiqaradigan zamonaviy qazish asboblari",
+        "category": "Qazish"
+      },
+      "processing": {
+        "title": "Qayta ishlash muassasasi",
+        "description": "Ilg'or ajratish va kengaytirish texnologiyasi bilan zamonaviy qayta ishlash zavodi",
+        "category": "Qayta ishlash"
+      },
+      "concentrate": {
+        "title": "Kontsentrat Vermiculite",
+        "description": "Kengaytirish yoki to'g'ridan-to'g'ri foydalanishga tayyor premium darajali kontsentrat vermiculite",
+        "category": "Mahsulotlar"
+      },
+      "expanded": {
+        "title": "Kengaytirilgan Vermiculite",
+        "description": "Istisno izolyatsion xususiyatlari bilan yengil kengaytirilgan vermiculite",
+        "category": "Mahsulotlar"
+      }
+    },
+    "video": {
+      "heading": "Amaliyotda ishlab chiqarish",
+      "subtitle": "Bizning to'liq qazish va qayta ishlash operatsiyalarini amaliyotda ko'rib olaylik",
+      "coming": "Ishlab chiqarish videosi tez orada"
+    },
+    "equipment": {
+      "heading": "Bizning asboblar va muassasalari",
+      "subtitle": "Bizning operatsiyalarni quvvatlaydigan eng so'nggi texnologiya",
+      "fleet": {
+        "title": "Qazish floti",
+        "desc": "Samarali va xavfsiz ruda chiqarish uchun zamonaviy ekskavatörlar, yüklagichlar va tashish asboblari"
+      },
+      "plant": {
+        "title": "Qayta ishlash zavodi",
+        "desc": "Premium kontsentrat ishlab chiqarish uchun ilg'or eritish, ekranlash va ajratish tizimlari"
+      },
+      "furnaces": {
+        "title": "Kengaytirish pechkalari",
+        "desc": "Optimal vermiculite kengaytirilishi uchun aniq boshqaruvli yuqori haroratli pechalar"
+      }
+    }
+  },
+  "usage": {
+    "title": "Foydalanish",
+    "description": "Bizning mahsulotlardan qanday foydalanish kerak"
+  },
+  "contact": {
+    "title": "Biz bilan bog'lanish",
+    "subtitle": "Qo'tib, so'rovlar yoki hamkorlik imkoniyatlari uchun bizning jamoa bilan bog'laning",
+    "form": {
+      "heading": "Bizga xabar yuboring",
+      "nameLabel": "Sizning ismi *",
+      "namePlaceholder": "Jon Doe",
+      "phoneLabel": "Telefon raqami *",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "emailLabel": "Email manzili",
+      "emailPlaceholder": "john@example.com",
+      "messageLabel": "Xabar *",
+      "messagePlaceholder": "Bizga vermiculite talablaringiz haqida ayt...",
+      "submitBtn": "Xabar yuborish",
+      "submittingBtn": "Yuborilmoqda..."
+    },
+    "info": {
+      "heading": "Aloqa ma'lumotlari",
+      "location": {
+        "title": "Bizning joylashuvi",
+        "address1": "Qazish saytlari, Sanoat zona",
+        "address2": "Qayta ishlash raioni",
+        "address3": "Mamlakat"
+      },
+      "phone": {
+        "title": "Telefon",
+        "phone1": "+1 (555) 123-4567",
+        "phone2": "+1 (555) 765-4321"
+      },
+      "email": {
+        "title": "Email",
+        "email1": "info@vermiculitemining.com",
+        "email2": "sales@vermiculitemining.com"
+      },
+      "hours": {
+        "title": "Ishlash vaqti",
+        "weekdays": "Dushanba - Juma: 08:00 - 18:00",
+        "saturday": "Shanba: 09:00 - 14:00",
+        "sunday": "Yakshanba: Yopiq"
+      }
+    },
+    "map": {
+      "heading": "Bizni xaritada toping",
+      "altText": "Kompaniya joylashuvi"
+    },
+    "toast": {
+      "title": "Xabar yuborildi!",
+      "description": "Biz bilan bog'langaningizdan rahmat. Biz 24 soat ichida javob beramiz."
+    }
+  },
+  "index": {
+    "title": "Blank App ga xush kelibsiz",
+    "subtitle": "Ajoyib loyihangizni bu yerdan boshlang!"
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan"
+  }
+}

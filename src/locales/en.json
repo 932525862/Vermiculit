@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "production": "Production",
+    "gallery": "Gallery",
+    "usage": "Usage",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "Learn More",
+    "whyChooseUs": "Why Choose Us",
+    "whyChooseUsDesc": "Combining decades of mining expertise with modern processing technology to deliver premium vermiculite products",
+    "expertMining": "Expert Mining",
+    "expertMiningDesc": "State-of-the-art mining operations ensuring the highest quality raw vermiculite extraction with minimal environmental impact",
+    "advancedProcessing": "Advanced Processing",
+    "advancedProcessingDesc": "Modern processing facilities with cutting-edge technology to produce premium concentrate and expanded vermiculite products",
+    "globalDistribution": "Global Distribution",
+    "globalDistributionDesc": "Reliable worldwide shipping and distribution network serving clients across construction, agriculture, and industrial sectors",
+    "ourProducts": "Our Products",
+    "ourProductsDesc": "Premium vermiculite solutions for diverse applications",
+    "concentrateVermiculite": "Concentrate Vermiculite",
+    "expandedVermiculite": "Expanded Vermiculite",
+    "highPurity": "High-purity mineral concentrate",
+    "idealForProcessing": "Ideal for further processing",
+    "variousGrades": "Various grade specifications",
+    "lightweight": "Lightweight and insulating",
+    "fireResistant": "Fire-resistant properties",
+    "readyForUse": "Ready for immediate use",
+    "learnMore": "Learn More",
+    "readyToPartner": "Ready to Partner with Us?",
+    "readyToPartnerDesc": "Contact our team today to discuss your vermiculite requirements and receive a customized quote",
+    "getInTouch": "Get in Touch"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our company"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Our products"
+  },
+  "production": {
+    "title": "Production Process",
+    "description": "From mine to market: our complete vermiculite processing cycle",
+    "step1": {
+      "title": "Mining Raw Vermiculite",
+      "description": "Extraction of high-quality vermiculite ore from our carefully managed mining sites using modern equipment and sustainable practices."
+    },
+    "step2": {
+      "title": "Sorting & Cleaning",
+      "description": "Raw ore undergoes initial screening to remove oversize rocks and debris."
+    },
+    "step3": {
+      "title": "Concentrate Production",
+      "description": "Advanced separation techniques isolate pure vermiculite concentrate."
+    },
+    "step4": {
+      "title": "Heating & Expanding",
+      "description": "Concentrate vermiculite enters high-temperature furnaces expanding the material up to 30 times."
+    },
+    "step5": {
+      "title": "Packaging & Quality Control",
+      "description": "Expanded vermiculite is cooled and subjected to rigorous quality testing."
+    },
+    "step6": {
+      "title": "Ready for Distribution",
+      "description": "Finished products are stored and prepared for worldwide distribution."
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Photo gallery"
+  },
+  "usage": {
+    "title": "Usage",
+    "description": "How to use our products"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "index": {
+    "title": "Welcome to Your Blank App",
+    "subtitle": "Start building your amazing project here!"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
