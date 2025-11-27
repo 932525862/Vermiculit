@@ -126,7 +126,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border/10 text-center">
           <p className="text-sm text-secondary-foreground/60">
-            © {currentYear} Vermiculit Company. {t("footer.rights")}
+            © {currentYear} OOO "SVERXBELPROEKT" {t("footer.rights")}
           </p>
         </div>
       </div>
