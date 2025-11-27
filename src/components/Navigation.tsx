@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Mountain } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -12,14 +12,33 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Logo from "@/assets/logo.png";
 
+const supportedLangs = ["en", "uz", "ru"];
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const { t, i18n } = useTranslation();
 
+  // Map: i18n.language -> tugmadagi qisqa label
+  const langLabel: Record<string, string> = {
+    en: "Eng",
+    uz: "Uzb",
+    ru: "Rus",
+  };
+
+  // Agar saytil yangi ochilgan bo'lsa yoki i18n.language noma'lum bo'lsa, defoltni "ru" qilamiz
+  useEffect(() => {
+    const current = i18n.language;
+    if (!current || !supportedLangs.includes(current)) {
+      i18n.changeLanguage("ru");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // faqat bir marta mountda
+
   const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
+    if (supportedLangs.includes(lang)) {
+      i18n.changeLanguage(lang);
+    }
   };
 
   const navLinks = [
@@ -34,14 +53,16 @@ const Navigation = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
+  // Agar i18n.language hali undefined bo'lsa, 'ru' label ko'rsin
+  const currentLang = supportedLangs.includes(i18n.language) ? i18n.language : "ru";
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-           <img src={Logo} alt="Vermiculit Logo" className="h-8 w-8 text-primary transition-transform group-hover:scale-110" />
-            {/* <Mountain className="h-8 w-8 text-primary transition-transform group-hover:scale-110" /> */}
+            <img src={Logo} alt="Vermiculit Logo" className="h-8 w-8 text-primary transition-transform group-hover:scale-110" />
             <span className="text-xl font-serif font-bold text-foreground">
               Vermiculit
             </span>
@@ -63,14 +84,12 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-            
+
             {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="sm" className="ml-4">
-                  {i18n.language === "en" && "Eng"}
-                  {i18n.language === "uz" && "Uzb"}
-                  {i18n.language === "ru" && "Rus"}
+                  {langLabel[currentLang] /* hozirgi tanlangan tilni ko'rsatadi */}
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
@@ -115,7 +134,7 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ))}
-              
+
               {/* Mobile Language Selector */}
               <div className="mt-4 pt-4 border-t border-border">
                 <p className="text-xs font-medium text-foreground/60 mb-2">
@@ -123,7 +142,7 @@ const Navigation = () => {
                 </p>
                 <div className="flex gap-2">
                   <Button
-                    variant={i18n.language === "en" ? "default" : "outline"}
+                    variant={currentLang === "en" ? "default" : "outline"}
                     size="sm"
                     onClick={() => {
                       changeLanguage("en");
@@ -133,7 +152,7 @@ const Navigation = () => {
                     Eng
                   </Button>
                   <Button
-                    variant={i18n.language === "uz" ? "default" : "outline"}
+                    variant={currentLang === "uz" ? "default" : "outline"}
                     size="sm"
                     onClick={() => {
                       changeLanguage("uz");
@@ -143,7 +162,7 @@ const Navigation = () => {
                     Uzb
                   </Button>
                   <Button
-                    variant={i18n.language === "ru" ? "default" : "outline"}
+                    variant={currentLang === "ru" ? "default" : "outline"}
                     size="sm"
                     onClick={() => {
                       changeLanguage("ru");
