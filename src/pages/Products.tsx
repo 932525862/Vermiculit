@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Package } from "lucide-react";
-import concentrateImage from "@/assets/product-concentrate.jpg";
-import expandedImage from "@/assets/product-expanded.jpg";
+import concentrateImage from "@/assets/maxsulot1.jpg";
+import expandedImage from "@/assets/maxsulot2.jpg";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -15,8 +15,7 @@ const Products = () => {
             {t("nav.products")}
           </h1>
           <p className="text-xl text-center text-secondary-foreground/80 max-w-3xl mx-auto animate-slide-up">
-            Premium vermiculite solutions for construction, agriculture, and
-            industrial applications
+           Qurilish, qishloq xo‘jaligi va sanoat sohalari uchun premium darajadagi vermikulit yechimlari.
           </p>
         </div>
       </section>
@@ -29,44 +28,44 @@ const Products = () => {
               <div className="flex items-center mb-4">
                 <Package className="h-8 w-8 text-primary mr-3" />
                 <span className="text-sm font-semibold text-primary uppercase tracking-wide">
-                  Product #1
+                 Mahsulot №1
                 </span>
               </div>
               <h2 className="text-4xl font-serif font-bold mb-6">
                 {t("home.concentrateVermiculite")}
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Our concentrate vermiculite is a premium-grade, minimally processed
-                product extracted directly from our mines. This high-purity mineral
-                concentrate serves as the foundation for expanded vermiculite and
-                various industrial applications.
+               Bizning kontsentrat vermikulitimiz — konlarimizdan to‘g‘ridan-to‘g‘ri olinadigan, 
+               minimal darajada qayta ishlangan premium sifatli mahsulotdir. Ushbu yuqori tozalikdagi 
+               mineral kontsentrat kengaytirilgan vermikulit va turli sanoat sohalaridagi ilovalar uchun asos
+                bo‘lib xizmat qiladi.
               </p>
 
               <Card className="mb-6 border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Physical & Chemical Characteristics
+                    Jismoniy va kimyoviy xususiyatlar
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Golden-brown to dark brown natural color</span>
+                      <span>Oltin-jigarrangdan to quyuq jigarranggacha bo‘lgan tabiiy rang</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Layered structure with natural mica-like appearance</span>
+                      <span>Tabiiy sluda (mika)ga o‘xshash ko‘rinishga ega qatlamli tuzilma</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>High purity levels (95%+ vermiculite content)</span>
+                      <span>Yuqori tozalik darajasi (95% va undan ortiq vermikulit tarkibi)</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Available in multiple grade specifications</span>
+                      <span>Bir nechta sifat (gradus) spetsifikatsiyalarida mavjud</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Excellent expansion properties when heated</span>
+                      <span>Qizdirilganda ajoyib kengayish xususiyatlariga ega</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -75,24 +74,24 @@ const Products = () => {
               <Card className="border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Applications & Uses
+                   Qo‘llanish sohalari va maqsadlari
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Raw material for expanded vermiculite production</span>
+                      <span>Kengaytirilgan vermikulit ishlab chiqarish uchun xom ashyo</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Industrial processing and manufacturing</span>
+                      <span>Sanoat ishlov berish va ishlab chiqarish</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Specialty chemical applications</span>
+                      <span>Maxsus kimyoviy ilovalar</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Export to processing facilities worldwide</span>
+                      <span>Dunyo bo‘ylab qayta ishlash korxonalariga eksport qilish  </span>
                     </li>
                   </ul>
                 </CardContent>
@@ -130,48 +129,47 @@ const Products = () => {
               <div className="flex items-center mb-4">
                 <Package className="h-8 w-8 text-primary mr-3" />
                 <span className="text-sm font-semibold text-primary uppercase tracking-wide">
-                  Product #2
+                 Mahsulot №2
                 </span>
               </div>
               <h2 className="text-4xl font-serif font-bold mb-6">
                 {t("home.expandedVermiculite")}
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Expanded vermiculite is produced by heating concentrate vermiculite
-                to high temperatures, causing it to expand up to 30 times its
-                original size. This creates a lightweight, highly insulating
-                material with exceptional properties.
+                Kengaytirilgan vermikulit kontsentrat vermikulitni yuqori haroratda qizdirish orqali ishlab chiqariladi, 
+                bu esa uning hajmini dastlabki o‘lchamiga nisbatan 30 baravar kengayishiga olib keladi. 
+                Natijada engil, yuqori izolyatsiyalovchi xususiyatlarga ega material hosil bo‘ladi.
               </p>
 
               <Card className="mb-6 border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Key Advantages
+                    Asosiy afzalliklar
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Extremely lightweight (low bulk density)</span>
+                      <span>Juda yengil (kam zichlikka ega)</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Excellent thermal insulation properties</span>
+                      <span>Ajoyib issiqlik izolyatsiyasi xususiyatlari</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Fire-resistant and non-combustible</span>
+                      <span>Olovga chidamli va yonmaydigan</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Chemically inert and odorless</span>
+                      <span>Kimyoviy jihatdan neytral va hidlanmaydigan</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>High water retention capacity</span>
+                      <span>Yuqori suv ushlab turish qobiliyati</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Environmentally safe and sustainable</span>
+                      <span>Atrof-muhit uchun xavfsiz va barqaror</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -180,28 +178,28 @@ const Products = () => {
               <Card className="border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Areas of Use
+                    Qo‘llanish sohalari
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Construction insulation and lightweight concrete</span>
+                      <span>Qurilishda izolyatsiya va yengil beton uchun</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Horticulture and agriculture soil amendment</span>
+                      <span>Bog‘dorchilik va qishloq xo‘jaligida tuproqni yaxshilash uchun</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Fireproofing and fire protection systems</span>
+                      <span>Olovdan himoya va yong‘inga qarshi tizimlar uchun</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Industrial filtration and absorbent applications</span>
+                      <span>Sanoat filtratsiyasi va singdiruvchi ilovalar uchun</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Packaging and shipping protection</span>
+                      <span>Qadoqlash va yetkazib berishda himoya qilish uchun</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -216,40 +214,37 @@ const Products = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif font-bold mb-4">
-              Packaging & Specifications
+             Qadoqlash va spetsifikatsiyalar
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Flexible packaging options to meet your specific needs
+             Sizning maxsus talablaringizga moslash uchun moslashuvchan qadoqlash variantlari
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Card className="text-center hover:shadow-gold transition-shadow">
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Bulk Shipments</h3>
+                <h3 className="text-xl font-bold mb-3">Katta hajmdagi jo‘natmalar</h3>
                 <p className="text-muted-foreground">
-                  Large-volume orders shipped in bulk containers for industrial
-                  clients and processing facilities
+                  Sanoat mijozlari va qayta ishlash korxonalari uchun katta hajmdagi buyurtmalarni bulk konteynerlarda yetkazib berish
                 </p>
               </CardContent>
             </Card>
 
             <Card className="text-center hover:shadow-gold transition-shadow">
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Big Bags</h3>
+                <h3 className="text-xl font-bold mb-3">Katta sumkalar</h3>
                 <p className="text-muted-foreground">
-                  Convenient 1-ton super sacks ideal for construction sites and
-                  medium-scale operations
+                  Qurilish maydonchalari va o‘rta hajmdagi ishlov berish uchun ideal bo‘lgan qulay 1 tonnalik super sumkalar
                 </p>
               </CardContent>
             </Card>
 
             <Card className="text-center hover:shadow-gold transition-shadow">
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Custom Packaging</h3>
+                <h3 className="text-xl font-bold mb-3">Maxsus qadoqlash</h3>
                 <p className="text-muted-foreground">
-                  Tailored packaging solutions including bags, drums, and specialty
-                  containers for specific applications
+                  Maxsus ilovalar uchun sumkalar, barabanlar va ixtisoslashtirilgan konteynerlarni o‘z ichiga olgan moslashtirilgan qadoqlash yechimlari
                 </p>
               </CardContent>
             </Card>

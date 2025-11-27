@@ -14,75 +14,66 @@ const Usage = () => {
   const applications = [
     {
       icon: Home,
-      title: "Construction",
-      description:
-        "Lightweight aggregate in concrete, plaster insulation, acoustic panels, and roofing materials. Provides excellent thermal insulation while reducing structural weight.",
-      benefits: [
-        "Thermal and acoustic insulation",
-        "Lightweight concrete production",
-        "Plaster and mortar additive",
-        "Roof and floor screeds",
-      ],
+      title: t("usagePage.applications.items.0.title"),
+      description: t("usagePage.applications.items.0.description"),
+      benefits: t("usagePage.applications.items.0.benefits", { returnObjects: true }),
     },
     {
       icon: Sprout,
-      title: "Agriculture & Horticulture",
-      description:
-        "Soil conditioner improving aeration, water retention, and nutrient availability. Used in potting mixes, hydroponics, and greenhouse cultivation for optimal plant growth.",
-      benefits: [
-        "Improves soil aeration and drainage",
-        "Enhances water retention capacity",
-        "pH neutral and sterile growing medium",
-        "Ideal for seed germination",
-      ],
+      title: t("usagePage.applications.items.1.title"),
+      description: t("usagePage.applications.items.1.description"),
+      benefits: t("usagePage.applications.items.1.benefits", { returnObjects: true }),
     },
     {
       icon: Shield,
-      title: "Insulation",
-      description:
-        "Superior thermal insulation for buildings, industrial equipment, and high-temperature applications. Non-combustible properties make it ideal for fire-safe construction.",
-      benefits: [
-        "Exceptional thermal resistance",
-        "Loose-fill attic insulation",
-        "Cavity wall insulation",
-        "High-temperature equipment insulation",
-      ],
+      title: t("usagePage.applications.items.2.title"),
+      description: t("usagePage.applications.items.2.description"),
+      benefits: t("usagePage.applications.items.2.benefits", { returnObjects: true }),
     },
     {
       icon: Flame,
-      title: "Fireproof Materials",
-      description:
-        "Critical component in fire protection systems, fire-resistant boards, fire doors, and fireproofing coatings. Maintains structural integrity at extreme temperatures.",
-      benefits: [
-        "Non-combustible and fire-resistant",
-        "Fire door cores and panels",
-        "Intumescent coatings additive",
-        "Safe rooms and fire barriers",
-      ],
+      title: t("usagePage.applications.items.3.title"),
+      description: t("usagePage.applications.items.3.description"),
+      benefits: t("usagePage.applications.items.3.benefits", { returnObjects: true }),
     },
     {
       icon: Factory,
-      title: "Metallurgy & Industry",
-      description:
-        "Used in foundry operations, metal casting, and as a high-temperature insulating medium. Protects equipment and provides safe handling of molten materials.",
-      benefits: [
-        "Foundry bed insulation",
-        "Riser and feeder sleeve insulation",
-        "Heat treatment furnace insulation",
-        "Metal casting applications",
-      ],
+      title: t("usagePage.applications.items.4.title"),
+      description: t("usagePage.applications.items.4.description"),
+      benefits: t("usagePage.applications.items.4.benefits", { returnObjects: true }),
     },
     {
       icon: Droplet,
-      title: "Filtration & Absorbents",
-      description:
-        "Effective filtration medium for liquids and gases. Excellent absorbent for industrial spills, chemical containment, and environmental remediation applications.",
-      benefits: [
-        "Swimming pool and water filtration",
-        "Industrial liquid filtration",
-        "Oil and chemical spill absorbent",
-        "Animal bedding and litter",
-      ],
+      title: t("usagePage.applications.items.5.title"),
+      description: t("usagePage.applications.items.5.description"),
+      benefits: t("usagePage.applications.items.5.benefits", { returnObjects: true }),
+    },
+  ];
+
+  const technicalProperties = [
+    {
+      title: t("usagePage.technicalProperties.items.0.title"),
+      desc: t("usagePage.technicalProperties.items.0.desc"),
+    },
+    {
+      title: t("usagePage.technicalProperties.items.1.title"),
+      desc: t("usagePage.technicalProperties.items.1.desc"),
+    },
+    {
+      title: t("usagePage.technicalProperties.items.2.title"),
+      desc: t("usagePage.technicalProperties.items.2.desc"),
+    },
+    {
+      title: t("usagePage.technicalProperties.items.3.title"),
+      desc: t("usagePage.technicalProperties.items.3.desc"),
+    },
+    {
+      title: t("usagePage.technicalProperties.items.4.title"),
+      desc: t("usagePage.technicalProperties.items.4.desc"),
+    },
+    {
+      title: t("usagePage.technicalProperties.items.5.title"),
+      desc: t("usagePage.technicalProperties.items.5.desc"),
     },
   ];
 
@@ -92,11 +83,10 @@ const Usage = () => {
       <section className="py-20 bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-center animate-fade-in">
-            Vermiculite Applications
+            {t("usagePage.hero.title")}
           </h1>
           <p className="text-xl text-center text-secondary-foreground/80 max-w-3xl mx-auto animate-slide-up">
-            Versatile mineral solution for diverse industries and applications
-            worldwide
+            {t("usagePage.hero.subtitle")}
           </p>
         </div>
       </section>
@@ -106,20 +96,13 @@ const Usage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-serif font-bold mb-6">
-              {t("nav.usage")}
+              {t("nav1.usage")}
             </h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Vermiculite is a naturally occurring mineral that, when heated to
-              high temperatures, expands into lightweight, accordion-like
-              particles. This unique expansion process creates a material with
-              exceptional insulating, absorbent, and lightweight properties.
+              {t("usagePage.whatIsVermiculite.description1")}
             </p>
             <p className="text-lg text-muted-foreground">
-              The expanded structure of vermiculite gives it an extremely high
-              surface area, making it ideal for thermal insulation, water
-              retention, and as a lightweight aggregate. Its inert, non-toxic
-              nature and fire-resistant properties make it safe for use in
-              construction, agriculture, and industrial applications.
+              {t("usagePage.whatIsVermiculite.description2")}
             </p>
           </div>
 
@@ -128,7 +111,7 @@ const Usage = () => {
               <CardContent className="pt-8">
                 <div className="text-4xl font-bold text-primary mb-2">30x</div>
                 <p className="text-muted-foreground">
-                  Expansion ratio when heated
+                  {t("usagePage.cards.expansion")}
                 </p>
               </CardContent>
             </Card>
@@ -137,7 +120,7 @@ const Usage = () => {
               <CardContent className="pt-8">
                 <div className="text-4xl font-bold text-primary mb-2">1100°C</div>
                 <p className="text-muted-foreground">
-                  Temperature resistance rating
+                  {t("usagePage.cards.temperature")}
                 </p>
               </CardContent>
             </Card>
@@ -145,7 +128,9 @@ const Usage = () => {
             <Card className="text-center border-2 hover:border-primary transition-colors">
               <CardContent className="pt-8">
                 <div className="text-4xl font-bold text-primary mb-2">100%</div>
-                <p className="text-muted-foreground">Natural and sustainable</p>
+                <p className="text-muted-foreground">
+                  {t("usagePage.cards.natural")}
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -157,11 +142,10 @@ const Usage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold mb-4">
-              Industry Applications
+              {t("usagePage.applications.title")}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover how vermiculite enhances performance across multiple
-              industries
+              {t("usagePage.applications.subtitle")}
             </p>
           </div>
 
@@ -185,7 +169,7 @@ const Usage = () => {
                     </p>
                     <div className="pt-4 border-t border-border">
                       <h4 className="font-semibold mb-2 text-sm">
-                        Key Benefits:
+                        {t("usagePage.applications.keyBenefits", "Asosiy foydalar:")}
                       </h4>
                       <ul className="space-y-1">
                         {app.benefits.map((benefit, idx) => (
@@ -212,36 +196,11 @@ const Usage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-serif font-bold mb-12 text-center">
-              Why Choose Vermiculite?
+              {t("usagePage.technicalProperties.title")}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                {
-                  title: "Lightweight",
-                  desc: "Extremely low density makes it easy to handle and reduces structural load in construction applications.",
-                },
-                {
-                  title: "Fire Resistant",
-                  desc: "Non-combustible with melting point above 1100°C, providing superior fire protection and safety.",
-                },
-                {
-                  title: "Thermal Insulation",
-                  desc: "Excellent insulating properties reduce heat transfer, improving energy efficiency in buildings.",
-                },
-                {
-                  title: "Water Retention",
-                  desc: "Can hold 3-4 times its weight in water, making it ideal for horticulture and agriculture.",
-                },
-                {
-                  title: "Chemically Inert",
-                  desc: "pH neutral and non-reactive, safe for use with plants, animals, and sensitive materials.",
-                },
-                {
-                  title: "Environmentally Safe",
-                  desc: "Natural, sustainable, and non-toxic mineral with no harmful environmental impact.",
-                },
-              ].map((prop, index) => (
+              {technicalProperties.map((prop, index) => (
                 <Card key={index} className="border-2">
                   <CardContent className="pt-6">
                     <h3 className="text-xl font-bold mb-2 text-primary">

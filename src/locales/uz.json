@@ -223,6 +223,7 @@
     }
   },
   "gallery": {
+    "description": "Bizning konchilik faoliyatimiz, qayta ishlash korxonalarimiz va premium vermikulit mahsulotlarimiz bilan tanishing",
     "subtitle": "Bizning qazish operatsiyalari, qayta ishlash muassasalari va premium vermiculite mahsulotlarini ko'rib chiqing",
     "items": {
       "mining": {
@@ -280,7 +281,7 @@
       "nameLabel": "Sizning ismi *",
       "namePlaceholder": "Jon Doe",
       "phoneLabel": "Telefon raqami *",
-      "phonePlaceholder": "+1 (555) 123-4567",
+      "phonePlaceholder": "+998 77 700 77 77",
       "emailLabel": "Email manzili",
       "emailPlaceholder": "john@example.com",
       "messageLabel": "Xabar *",
@@ -298,13 +299,13 @@
       },
       "phone": {
         "title": "Telefon",
-        "phone1": "+1 (555) 123-4567",
-        "phone2": "+1 (555) 765-4321"
+        "phone1": "+998 94-617-16-46  ",
+        "phone2": "+998 94-617-16-46  "
       },
       "email": {
         "title": "Email",
-        "email1": "info@vermiculitemining.com",
-        "email2": "sales@vermiculitemining.com"
+        "email1": "bobur.uz@mail.ru"
+        
       },
       "hours": {
         "title": "Ishlash vaqti",
@@ -327,6 +328,122 @@
     "subtitle": "Ajoyib loyihangizni bu yerdan boshlang!"
   },
   "footer": {
-    "rights": "Barcha huquqlar himoyalangan"
+    "rights": "Barcha huquqlar himoyalangan",
+    "description": " Dunyo bo‘ylab sanoat va tijorat sohalari uchun premium kontsentrat va kengaytirilgan vermikulitning yetakchi ta’minotchisi."
+  },
+
+   "nav1": {
+    "usage": "Foydalanish sohalari"
+  },
+  "usagePage": {
+    "hero": {
+      "title": "Vermikulit ilovalari",
+      "subtitle": "Turli sohalar va ilovalar uchun ko‘p qirrali mineral yechim"
+    },
+    "whatIsVermiculite": {
+      "title": "Vermikulit nima?",
+      "description1": "Vermikulit tabiiy mineral bo‘lib, yuqori haroratga qizdirilganda engil, akordeon shaklidagi zarrachalarga aylanadi. Ushbu noyob kengayish jarayoni materialga ajoyib izolyatsiya, so‘rilish va engil vazn xususiyatlarini beradi.",
+      "description2": "Vermikulitning kengaygan strukturasining yuzasi juda katta bo‘lib, uni issiqlik izolyatsiyasi, suvni ushlab turish va engil agregat sifatida ishlatish uchun ideal qiladi. U inert, zaharsiz va olovga chidamli bo‘lib, qurilish, qishloq xo‘jaligi va sanoat sohalarida xavfsiz ishlatiladi."
+    },
+    "cards": {
+      "expansion": "Qizdirilganda kengayish nisbati",
+      "temperature": "Haroratga chidamlilik darajasi",
+      "natural": "Tabiiy va barqaror"
+    },
+    "applications": {
+      "title": "Sanoat ilovalari",
+      "subtitle": "Vermikulitning turli sohalarda ishlashini kashf eting",
+      "items": [
+        {
+          "title": "Qurilish",
+          "description": "Beton, plitka izolyatsiyasi, akustik panellar va tom yopish materiallarida engil agregat sifatida ishlatiladi. Ajoyib issiqlik izolyatsiyasini ta’minlaydi va struktura og‘irligini kamaytiradi.",
+          "benefits": [
+            "Issiqlik va akustik izolyatsiya",
+            "Engil beton ishlab chiqarish",
+            "Plitka va ohak qo‘shimchasi",
+            "Tom va pollar uchun qoplamalar"
+          ]
+        },
+        {
+          "title": "Qishloq xo‘jaligi va bog‘dorchilik",
+          "description": "Tuproqni yaxshilaydi: havoni aylantirish, suvni ushlab turish va ozuqa moddalarini ta’minlaydi. Ko‘chat aralashmalari, gidroponika va issiqxona ekinlarida ishlatiladi.",
+          "benefits": [
+            "Tuproq havosini va drenajni yaxshilaydi",
+            "Suvni ushlab turish qobiliyatini oshiradi",
+            "pH neytral va sterillangan o‘sish muhiti",
+            "Urug‘larning rivojlanishi uchun ideal"
+          ]
+        },
+        {
+          "title": "Izolyatsiya",
+          "description": "Binolar, sanoat uskunalari va yuqori haroratli ilovalar uchun mukammal issiqlik izolyatsiyasi. Yonmaydigan xususiyatlari uni xavfsiz qurilish uchun ideal qiladi.",
+          "benefits": [
+            "Ajoyib issiqlik chidamliligi",
+            "Attik izolyatsiyasi",
+            "Cavity wall izolyatsiyasi",
+            "Yuqori haroratli uskunalar izolyatsiyasi"
+          ]
+        },
+        {
+          "title": "Olovga chidamli materiallar",
+          "description": "Olovdan himoya tizimlarida, olovga chidamli panellarda, eshiklarda va qoplamalarda muhim komponent. Juda yuqori haroratlarda struktura mustahkamligini saqlaydi.",
+          "benefits": [
+            "Yonmaydigan va olovga chidamli",
+            "Olov eshiklari va panellar",
+            "Intumescent qoplamalarga qo‘shimcha",
+            "Xavfsiz xonalar va olov to‘siqlari"
+          ]
+        },
+        {
+          "title": "Metallurgiya va sanoat",
+          "description": "Kastin ishlari, metall quyish va yuqori haroratli izolyatsiya uchun ishlatiladi. Uskunalarni himoya qiladi va eritilgan materiallarni xavfsiz ishlash imkonini beradi.",
+          "benefits": [
+            "Kastin izolyatsiyasi",
+            "Riser va feeder qoplamasi izolyatsiyasi",
+            "Issiqlik bilan ishlash pechi izolyatsiyasi",
+            "Metall quyish ilovalari"
+          ]
+        },
+        {
+          "title": "Filtratsiya va so‘ruvchi materiallar",
+          "description": "Suyuqlik va gazlar uchun samarali filtratsiya materiali. Sanoatdagi to‘kilishlar, kimyoviy moddalarni saqlash va ekologik tozalash uchun ajoyib so‘ruvchi material.",
+          "benefits": [
+            "Hovuz va suv filtratsiyasi",
+            "Sanoat suyuqlik filtratsiyasi",
+            "Yog‘ va kimyoviy moddalarni so‘ruvchi",
+            "Hayvonlar bedding va litter"
+          ]
+        }
+      ]
+    },
+    "technicalProperties": {
+      "title": "Nega vermikulitni tanlash kerak?",
+      "items": [
+        {
+          "title": "Engil vazn",
+          "desc": "Juda past zichlik, uni ishlashni osonlashtiradi va qurilishda strukturaviy yukni kamaytiradi."
+        },
+        {
+          "title": "Olovga chidamli",
+          "desc": "1100°C dan yuqori erish nuqtasi bilan yonmaydigan, mukammal olovdan himoya va xavfsizlik ta’minlaydi."
+        },
+        {
+          "title": "Issiqlik izolyatsiyasi",
+          "desc": "Ajoyib izolyatsiya xususiyatlari issiqlik uzatilishini kamaytiradi va binolarda energiya samaradorligini oshiradi."
+        },
+        {
+          "title": "Suvni ushlab turish",
+          "desc": "O‘z vaznining 3-4 baravarini suvda ushlab turishi mumkin, bu uni bog‘dorchilik va qishloq xo‘jaligi uchun ideal qiladi."
+        },
+        {
+          "title": "Kimyoviy inert",
+          "desc": "pH neytral va reaktsiyasiz, o‘simliklar, hayvonlar va sezgir materiallar bilan ishlash uchun xavfsiz."
+        },
+        {
+          "title": "Atrof-muhitga zararli emas",
+          "desc": "Tabiiy, barqaror va zaharsiz mineral, atrof-muhitga zararli ta’siri yo‘q."
+        }
+      ]
+    }
   }
 }

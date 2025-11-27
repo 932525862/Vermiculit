@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
-import heroImage from "@/assets/hero-mining.jpg";
-import processingPlant from "@/assets/processing-plant.jpg";
-import concentrateImage from "@/assets/product-concentrate.jpg";
-import expandedImage from "@/assets/product-expanded.jpg";
-
+import heroImage from "@/assets/backround.jpg";
+import processingPlant from "@/assets/qaytaishlash.jpg";
+import concentrateImage from "@/assets/maxsulot1.jpg";
+import expandedImage from "@/assets/maxsulot2.jpg";
+import ishjarayon from "@/assets/ishjarayon.mp4"
 const Gallery = () => {
   const { t } = useTranslation();
   const galleryItems = [
@@ -42,9 +42,8 @@ const Gallery = () => {
           <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-center animate-fade-in">
             {t("nav.gallery")}
           </h1>
-          <p className="text-xl text-center text-secondary-foreground/80 max-w-3xl mx-auto animate-slide-up">
-            Explore our mining operations, processing facilities, and premium
-            vermiculite products
+          <p className="tryext-xl text-center text-secondary-foreground/80 max-w-3xl mx-auto animate-slide-up">
+            {t("gallery.description")}
           </p>
         </div>
       </section>
@@ -82,34 +81,28 @@ const Gallery = () => {
       </section>
 
       {/* Video Section Placeholder */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-serif font-bold mb-6">
-              {t("gallery.video.heading")}
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              {t("gallery.video.subtitle")}
-            </p>
-            <div className="aspect-video bg-secondary rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-gold rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg
-                    className="w-10 h-10 text-white"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-                  </svg>
-                </div>
-                <p className="text-secondary-foreground/60">
-                  {t("gallery.video.coming")}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="py-20 bg-muted">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto text-center">
+      <h2 className="text-4xl font-serif font-bold mb-6">
+        {t("gallery.video.heading")}
+      </h2>
+      <p className="text-lg text-muted-foreground mb-8">
+        {t("gallery.video.subtitle")}
+      </p>
+      <div className="aspect-video bg-secondary rounded-lg flex items-center justify-center">
+        <video
+          src={ishjarayon}
+          controls
+          className="w-full h-full object-cover rounded-lg"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Equipment Highlights */}
       <section className="py-20 bg-background">

@@ -173,8 +173,7 @@ const Contact = () => {
                           {t("contact.info.location.address1")}
                           <br />
                           {t("contact.info.location.address2")}
-                          <br />
-                          {t("contact.info.location.address3")}
+                         
                         </p>
                       </div>
                     </div>
@@ -190,9 +189,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-bold mb-1">{t("contact.info.phone.title")}</h3>
                         <p className="text-muted-foreground">
-                          {t("contact.info.phone.phone1")}
+                          <a href="tel:+998946171646">{t("contact.info.phone.phone1")}</a>
                           <br />
-                          {t("contact.info.phone.phone2")}
+                          <a href="tel:+998946171646">{t("contact.info.phone.phone2")}</a>
+
                         </p>
                       </div>
                     </div>
@@ -209,8 +209,7 @@ const Contact = () => {
                         <h3 className="font-bold mb-1">{t("contact.info.email.title")}</h3>
                         <p className="text-muted-foreground">
                           {t("contact.info.email.email1")}
-                          <br />
-                          {t("contact.info.email.email2")}
+                         
                         </p>
                       </div>
                     </div>
@@ -251,7 +250,7 @@ const Contact = () => {
             </h2>
             <div className="aspect-video bg-secondary rounded-lg overflow-hidden shadow-elegant">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2!2d-73.98!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMCcwMC4wIk4gNzPCsDU4JzQ4LjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d333810.5354614496!2d60.627145166166216!3d41.98741548175787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDA5JzIzLjkiTiA2MMKwMjUnMDAuOSJF!5e1!3m2!1sru!2sus!4v1764240538216!5m2!1sru!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

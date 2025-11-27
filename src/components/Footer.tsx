@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Mountain, Mail, Phone, MapPin } from "lucide-react";
+import { FiInstagram } from "react-icons/fi";
+import { FaTelegramPlane } from "react-icons/fa"; // Telegram uchun haqiqiy ikon
+import logo from "@/assets/logo.png"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,15 +16,34 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Mountain className="h-8 w-8 text-primary" />
+              <img src={logo} alt="" className="h-8 w-8 text-primary" />
               <span className="text-lg font-serif font-bold">
-                Vermiculite Mining
+                Vermiculit
               </span>
             </div>
             <p className="text-sm text-secondary-foreground/80">
-              Leading provider of premium concentrate and expanded vermiculite for
-              industrial and commercial applications worldwide.
+              {t("footer.description")}
             </p>
+
+            {/* Social Icons */}
+            <div className="flex space-x-4 mt-2">
+              <a
+                href="https://www.instagram.com/vermiculit.uz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-500 hover:text-yellow-400 transition-colors text-3xl"
+              >
+                <FiInstagram />
+              </a>
+              <a
+                href="https://t.me/boburfayziev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-500 hover:text-yellow-400 transition-colors text-3xl"
+              >
+                <FaTelegramPlane />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -73,12 +95,6 @@ const Footer = () => {
               <li className="text-sm text-secondary-foreground/80">
                 {t("home.expandedVermiculite")}
               </li>
-              <li className="text-sm text-secondary-foreground/80">
-                Construction Grade
-              </li>
-              <li className="text-sm text-secondary-foreground/80">
-                Agriculture Grade
-              </li>
             </ul>
           </div>
 
@@ -95,13 +111,13 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-secondary-foreground/80">
-                  +1 (555) 123-4567
+                  +998 (94) 617-16-46
                 </span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-secondary-foreground/80">
-                  info@vermiculitemining.com
+                  bobur.uz@mail.ru
                 </span>
               </li>
             </ul>
@@ -110,7 +126,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border/10 text-center">
           <p className="text-sm text-secondary-foreground/60">
-            © {currentYear} Vermiculite Mining Company. {t("footer.rights")}
+            © {currentYear} Vermiculit Company. {t("footer.rights")}
           </p>
         </div>
       </div>
