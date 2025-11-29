@@ -151,6 +151,7 @@
   "products": {
     "title": "Mahsulotlar",
     "description": "Bizning mahsulotlarimiz"
+     
   },
   "production": {
     "title": "Ishlab chiqarish jarayoni",
@@ -223,6 +224,7 @@
     }
   },
   "gallery": {
+    "title":"Ish jarayonimizdan olingan lavhalar",
     "description": "Bizning konchilik faoliyatimiz, qayta ishlash korxonalarimiz va premium vermikulit mahsulotlarimiz bilan tanishing",
     "subtitle": "Bizning qazish operatsiyalari, qayta ishlash muassasalari va premium vermiculite mahsulotlarini ko'rib chiqing",
     "items": {
@@ -293,8 +295,8 @@
       "heading": "Aloqa ma'lumotlari",
       "location": {
         "title": "Bizning joylashuvi",
-        "address1": "Qazish saytlari, Sanoat zona",
-        "address2": "Qayta ishlash raioni",
+        "address1": "1.Qoraqalpog‘iston Respublikasi, Qoraozyak tumani, OPI Kuybak.",
+        "address2": "2.Shishish sexi manzili: Toshkent viloyati, Pskent, Lolaariq MFY, Lolaariq ko'chasi, 150-bino",
         "address3": "Mamlakat"
       },
       "phone": {
@@ -446,4 +448,6 @@
       ]
     }
   }
+
+  
 }

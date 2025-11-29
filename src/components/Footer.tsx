@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Mountain, Mail, Phone, MapPin } from "lucide-react";
 import { FiInstagram } from "react-icons/fi";
 import { FaTelegramPlane } from "react-icons/fa"; // Telegram uchun haqiqiy ikon
-import logo from "@/assets/logo.png"
+import logo from "@/assets/llogg-Photoroom.png"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -104,8 +104,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                <span className="text-sm text-secondary-foreground/80">
-                  Mining Site, Industrial Zone
+                <span className="text-sm text-secondary-foreground/90">
+                          {t("contact.info.location.address1")}
                 </span>
               </li>
               <li className="flex items-center space-x-2">

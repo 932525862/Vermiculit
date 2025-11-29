@@ -8,42 +8,54 @@ import {
   Factory,
   Droplet,
 } from "lucide-react";
+import Mining from "@/assets/qurilish.jpeg";
+import Sorting from "@/assets/qishloq.jpeg";
+import Concentrate from "@/assets/izalatsiya.jpeg";
+import Heating from "@/assets/olovda.png";
+import Packaging from "@/assets/metal.png";
+import Distribution from "@/assets/S-15280.webp";
 
 const Usage = () => {
   const { t } = useTranslation();
   const applications = [
     {
       icon: Home,
+      image: Mining,
       title: t("usagePage.applications.items.0.title"),
       description: t("usagePage.applications.items.0.description"),
       benefits: t("usagePage.applications.items.0.benefits", { returnObjects: true }),
     },
     {
       icon: Sprout,
+      image: Sorting,
       title: t("usagePage.applications.items.1.title"),
       description: t("usagePage.applications.items.1.description"),
       benefits: t("usagePage.applications.items.1.benefits", { returnObjects: true }),
     },
     {
       icon: Shield,
+      image: Concentrate,
       title: t("usagePage.applications.items.2.title"),
       description: t("usagePage.applications.items.2.description"),
       benefits: t("usagePage.applications.items.2.benefits", { returnObjects: true }),
     },
     {
       icon: Flame,
+      image: Heating,
       title: t("usagePage.applications.items.3.title"),
       description: t("usagePage.applications.items.3.description"),
       benefits: t("usagePage.applications.items.3.benefits", { returnObjects: true }),
     },
     {
       icon: Factory,
+      image: Packaging,
       title: t("usagePage.applications.items.4.title"),
       description: t("usagePage.applications.items.4.description"),
       benefits: t("usagePage.applications.items.4.benefits", { returnObjects: true }),
     },
     {
       icon: Droplet,
+      image: Distribution,
       title: t("usagePage.applications.items.5.title"),
       description: t("usagePage.applications.items.5.description"),
       benefits: t("usagePage.applications.items.5.benefits", { returnObjects: true }),
@@ -158,6 +170,11 @@ const Usage = () => {
                   className="hover:shadow-elegant transition-shadow"
                 >
                   <CardContent className="pt-8">
+                    {/* Image for the application */}
+                    <div className="w-full h-40 mb-4 overflow-hidden rounded-lg">
+                      <img src={app.image} alt={`${app.title} image`} className="w-full h-full object-cover" />
+                    </div>
+
                     <div className="w-16 h-16 bg-gradient-gold rounded-full flex items-center justify-center mb-4">
                       <IconComponent className="h-8 w-8 text-white" />
                     </div>

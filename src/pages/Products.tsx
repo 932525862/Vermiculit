@@ -3,6 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Package } from "lucide-react";
 import concentrateImage from "@/assets/maxsulot1.jpg";
 import expandedImage from "@/assets/maxsulot2.jpg";
+import Qadoq1 from "@/assets/fura.jpg";
+import Qadoq2 from "@/assets/tahlam.jpg";
+import Qadoq3 from "@/assets/kataqop.jpg";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -223,6 +226,10 @@ const Products = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Card className="text-center hover:shadow-gold transition-shadow">
+              {/* Image on top */}
+              <div className="h-40 overflow-hidden rounded-t-lg">
+                <img src={Qadoq1} alt="Katta hajmdagi jo' natmalar" className="w-full h-full object-cover" />
+              </div>
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Katta hajmdagi jo‘natmalar</h3>
                 <p className="text-muted-foreground">
@@ -232,6 +239,10 @@ const Products = () => {
             </Card>
 
             <Card className="text-center hover:shadow-gold transition-shadow">
+              {/* Image on top */}
+              <div className="h-40 overflow-hidden rounded-t-lg">
+                <img src={Qadoq3} alt="Katta sumkalar" className="w-full h-full object-cover" />
+              </div>
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Katta sumkalar</h3>
                 <p className="text-muted-foreground">
@@ -241,6 +252,10 @@ const Products = () => {
             </Card>
 
             <Card className="text-center hover:shadow-gold transition-shadow">
+              {/* Image on top */}
+              <div className="h-40 overflow-hidden rounded-t-lg">
+                <img src={Qadoq2} alt="Maxsus qadoqlash" className="w-full h-full object-cover" />
+              </div>
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Maxsus qadoqlash</h3>
                 <p className="text-muted-foreground">
