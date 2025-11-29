@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, CheckCircle, Mountain, Factory, Globe } from "lucide-react";
-import heroImage from "@/assets/hero-mining.jpg";
+import heroImage from "@/assets/asosiyback-min.jpg";
 
 const Home = () => {
   const { t } = useTranslation();

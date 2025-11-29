@@ -4,11 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import Mining from "@/assets/qazilma (1).mp4";
 import Sorting from "@/assets/saralash.jpg";
-import Concentrate from "@/assets/bak (3).mp4";
+import Concentrate from "@/assets/aaaa.jpg";
 import Heating from "@/assets/bak (5).mp4";
 import Packaging from "@/assets/bak (4).mp4";
 import Distribution from "@/assets/tahlam.jpg";
-
+import qazish from "@/assets/kovlabolish .png";
+import pech from "@/assets/sssssas.png";
 const Production = () => {
   const { t } = useTranslation();
 
@@ -23,7 +24,7 @@ const Production = () => {
         type: "video",
         src: Mining,
         alt: "Mining video",
-        fallbackImg: Sorting,
+        fallbackImg: qazish,
       },
     },
     {
@@ -40,12 +41,7 @@ const Production = () => {
       description:
         t("production.step3.description") ||
         "Advanced separation techniques including gravity separation...",
-      media: {
-        type: "video",
-        src: Concentrate,
-        alt: "Concentrate video",
-        fallbackImg: Sorting,
-      },
+      media: { type: "image", src: Concentrate, alt: "Sorting image" },
     },
     {
       number: "04",
@@ -57,7 +53,7 @@ const Production = () => {
         type: "video",
         src: Heating,
         alt: "Heating video",
-        fallbackImg: Sorting,
+        fallbackImg: pech,
       },
     },
     {
@@ -66,21 +62,9 @@ const Production = () => {
       description:
         t("production.step5.description") ||
         "Expanded vermiculite is cooled, screened to desired grade specifications...",
-      media: {
-        type: "video",
-        src: Packaging,
-        alt: "Packaging video",
-        fallbackImg: Sorting,
-      },
+     media: { type: "image", src: Distribution, alt: "Distribution image" },
     },
-    {
-      number: "06",
-      title: t("production.step6.title") || "Ready for Distribution",
-      description:
-        t("production.step6.description") ||
-        "Finished products are stored in climate-controlled warehouses and prepared for distribution.",
-      media: { type: "image", src: Distribution, alt: "Distribution image" },
-    },
+  
   ];
 
   const [videoFailed, setVideoFailed] = useState(() => processSteps.map(() => false));
