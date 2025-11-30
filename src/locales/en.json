@@ -15,54 +15,54 @@
     "hero": {
       "title": "Vermiculite",
       "subtitle": "",
-      "lead": "Supplier of high-quality concentrate and expanded vermiculite for construction, agriculture, and industrial applications"
+      "lead": "Supplier of high-quality concentrate and expanded vermiculite for construction, agriculture and industrial sectors"
     },
     "whyChooseUs": "Why choose us?",
     "whyChooseUsDesc": "Combining our mining experience with modern processing technologies, we deliver premium vermiculite products",
-    "expertMining": "Expert Mining",
-    "expertMiningDesc": "Modern extraction methods ensure high-quality vermiculite ore with minimal environmental impact",
-    "advancedProcessing": "Advanced Processing",
-    "advancedProcessingDesc": "State-of-the-art processing facilities producing premium concentrate and expanded vermiculite",
-    "globalDistribution": "Global Distribution",
-    "globalDistributionDesc": "Reliable worldwide delivery network serving construction, agricultural and industrial sectors",
-    "ourProducts": "Our Products",
-    "ourProductsDesc": "Premium vermiculite solutions for a range of applications",
+    "expertMining": "Experienced mining",
+    "expertMiningDesc": "Modern mining operations ensure high-quality vermiculite extraction with minimal environmental impact",
+    "advancedProcessing": "Advanced processing",
+    "advancedProcessingDesc": "State-of-the-art facilities for producing premium concentrate and expanded vermiculite",
+    "globalDistribution": "Global distribution",
+    "globalDistributionDesc": "A reliable worldwide supply network serving construction, agriculture and industrial customers",
+    "ourProducts": "Our products",
+    "ourProductsDesc": "Premium vermiculite solutions for a variety of applications",
     "concentrateVermiculite": "Concentrate Vermiculite",
     "expandedVermiculite": "Expanded Vermiculite",
     "highPurity": "High-purity mineral concentrate",
-    "idealForProcessing": "Ideal for further processing",
-    "variousGrades": "Available in various grade specifications",
+    "idealForProcessing": "Ideal feedstock for further processing",
+    "variousGrades": "Available in multiple grade specifications",
     "lightweight": "Lightweight and insulating",
     "fireResistant": "Fire-resistant properties",
     "readyForUse": "Ready to use",
     "learnMore": "Learn more",
-    "readyToPartner": "Ready to partner with us?",
-    "readyToPartnerDesc": "Contact our team today to discuss your vermiculite needs and receive a customized offer",
+    "readyToPartner": "Ready to partner?",
+    "readyToPartnerDesc": "Contact our team today to discuss your vermiculite needs and receive a tailored proposal",
     "getInTouch": "Get in touch"
   },
   "about": {
-    "title": "About us",
-    "subtitle": "Leading with a decade of experience in the vermiculite industry",
+    "title": "About",
+    "subtitle": "Leading the vermiculite industry with decades of experience",
     "story": {
       "heading": "Our history",
-      "paragraph1": "Founded with the vision to be a leading global vermiculite supplier, the company has grown from a single mining operation to a fully integrated mining and processing enterprise.",
-      "paragraph2": "With modern facilities and a commitment to quality, we produce, process and deliver high-grade vermiculite products worldwide for construction, agriculture, horticulture, insulation and industrial sectors.",
-      "paragraph3": "Our success is built on three pillars: exceptional quality standards, sustainable mining practices and unwavering customer service. We continuously invest in technology and workforce training to maintain our industry leadership."
+      "paragraph1": "Founded with the vision of becoming a leading global vermiculite supplier, our company has grown from a single mining site into a fully integrated mining and processing operation.",
+      "paragraph2": "With modern facilities and a commitment to quality, we extract, process and supply high-grade vermiculite to customers worldwide in construction, agriculture, horticulture, insulation and industrial sectors.",
+      "paragraph3": "Our success is built on three pillars: exceptional quality standards, sustainable mining practices, and consistent customer service. We continuously invest in technology and workforce training to maintain our industry leadership."
     },
     "mission": {
       "heading": "Mission and values",
       "subtitle": "We lead with principles of excellence in everything we do",
       "missionTitle": "Our mission",
-      "missionDesc": "To provide the highest-quality vermiculite through responsible mining, advanced processing and exceptional service, while protecting the environment and contributing to sustainable development.",
+      "missionDesc": "To deliver the highest quality vermiculite products through responsible mining, advanced processing, and exceptional service while protecting the environment and contributing to sustainable development.",
       "valuesTitle": "Our values",
       "value1": "Quality excellence in every product",
-      "value2": "Sustainable and responsible operations",
+      "value2": "Responsible and sustainable operations",
       "value3": "Innovation and continuous improvement",
       "value4": "Customer-focused service"
     },
     "export": {
-      "heading": "Demand for vermiculite and exports",
-      "subtitle": "Our export volumes and demand in the global market",
+      "heading": "Vermiculite demand and exports",
+      "subtitle": "Our export volumes and global market demand",
       "table": {
         "number": "No.",
         "country": "Importing country",
@@ -89,18 +89,18 @@
     },
     "whatWeDo": {
       "heading": "What we do",
-      "subtitle": "Comprehensive vermiculite solutions from mine to market",
+      "subtitle": "Complete vermiculite solutions from mine to market",
       "mining": {
         "title": "Mining operations",
-        "desc": "We extract high-quality vermiculite ore using modern mining methods that maximize yield while minimizing environmental impact."
+        "desc": "We extract high-quality vermiculite ore from carefully managed mining sites using modern methods that minimize environmental impact while maximizing productivity."
       },
       "processing": {
         "title": "Processing",
-        "desc": "Advanced processing facilities clean, grade, expand, and package vermiculite to precise specifications for various industrial applications."
+        "desc": "We clean, sort, expand and package vermiculite to precise specifications using advanced processing facilities for various industrial applications."
       },
       "distribution": {
         "title": "Distribution",
-        "desc": "A global distribution network ensuring timely delivery of vermiculite products to construction, agricultural and industrial customers worldwide."
+        "desc": "Our global distribution network ensures timely delivery of vermiculite products to construction, agricultural and industrial customers around the world."
       }
     },
     "advantages": {
@@ -108,19 +108,19 @@
       "subtitle": "What sets us apart in the vermiculite industry",
       "premium": {
         "title": "Premium quality",
-        "desc": "Strict quality control ensures consistently high-grade products"
+        "desc": "Strict quality control ensures consistent, high-grade products"
       },
       "equipment": {
         "title": "Modern equipment",
-        "desc": "State-of-the-art mining and processing technology"
+        "desc": "Advanced mining and processing technology"
       },
       "team": {
         "title": "Experienced team",
-        "desc": "Decades of combined industry experience"
+        "desc": "Decades of combined experience in the vermiculite industry"
       },
       "sustainable": {
         "title": "Sustainable practices",
-        "desc": "Environmentally responsible mining and processing"
+        "desc": "Environmentally responsible mining and processing methods"
       },
       "flexible": {
         "title": "Flexible supply",
@@ -128,15 +128,15 @@
       },
       "global": {
         "title": "Global reach",
-        "desc": "Reliable international logistics and delivery"
+        "desc": "Reliable international logistics and distribution"
       },
       "pricing": {
         "title": "Competitive pricing",
-        "desc": "Efficiency from mine to market"
+        "desc": "Efficiencies from mine to market"
       },
       "support": {
         "title": "Technical support",
-        "desc": "Expert guidance on product application"
+        "desc": "Specialist guidance on product applications"
       }
     }
   },
@@ -146,35 +146,35 @@
   },
   "production": {
     "title": "Production process",
-    "description": "From extraction to market: our complete vermiculite processing cycle",
+    "description": "From mining to market: our complete vermiculite processing cycle",
     "step1": {
-      "title": "In-situ vermiculite extraction",
-      "description": "We extract high-quality vermiculite ore from carefully managed mining sites using modern equipment and sustainable practices."
+      "title": "Raw vermiculite extraction",
+      "description": "Using modern equipment and sustainable practices, we extract high-quality vermiculite ore from carefully managed mining sites."
     },
     "step2": {
-      "title": "Screening and cleaning",
-      "description": "Raw ore undergoes initial screening to remove large rocks and debris."
+      "title": "Sorting and cleaning",
+      "description": "The ore undergoes initial screening and removal of large rocks and debris."
     },
     "step3": {
       "title": "Concentrate production",
-      "description": "Advanced separation techniques are used to obtain a refined vermiculite concentrate."
+      "description": "Advanced separation methods are used to produce a refined vermiculite concentrate."
     },
     "step4": {
       "title": "Heating and expansion",
-      "description": "Concentrate is passed through high-temperature furnaces where the material expands up to 30 times its original volume."
+      "description": "The vermiculite concentrate is processed in high-temperature furnaces, expanding up to 30 times in volume."
     },
     "step5": {
-      "title": "Cooling and quality control",
-      "description": "Expanded vermiculite is cooled and subjected to strict quality checks."
+      "title": "Packaging and quality control",
+      "description": "Expanded vermiculite is cooled and subjected to rigorous quality inspections."
     },
     "step6": {
       "title": "Ready for distribution",
-      "description": "Final products are stored and prepared for global distribution."
+      "description": "Final products are stored and prepared for worldwide distribution."
     },
     "intro": {
       "heading": "Integrated processing excellence",
-      "p1": "Our modern facilities combine traditional mining know-how with advanced processing technologies to produce premium-quality vermiculite. Each production stage is tightly controlled to ensure consistent material properties and quality.",
-      "p2": "From raw ore extraction to final packaging, our vertically integrated operations maintain strict quality control standards and implement sustainable practices to protect the environment."
+      "p1": "Our modern facilities combine traditional mining expertise with cutting-edge processing technologies to produce premium vermiculite products.",
+      "p2": "From raw material extraction to final packaging, our vertically integrated operations maintain strict quality standards and implement environmentally responsible practices."
     },
     "quality": {
       "heading": "Quality control and standards",
@@ -184,8 +184,8 @@
           "item1": "Particle size distribution analysis",
           "item2": "Bulk density measurements",
           "item3": "Expansion coefficient testing",
-          "item4": "Chemical composition testing",
-          "item5": "Moisture content determination"
+          "item4": "Chemical composition analysis",
+          "item5": "Moisture determination"
         }
       },
       "standards": {
@@ -201,11 +201,11 @@
     },
     "commitment": {
       "title": "Commitment to excellence",
-      "text": "Every batch produced at our plants undergoes comprehensive testing to ensure it meets or exceeds industry standards. Our dedicated quality control team works continuously to maintain the high standards our customers expect."
+      "text": "Every batch produced in our plants undergoes comprehensive testing to ensure it meets or exceeds industry standards. Our dedicated quality control team works continuously to maintain high customer expectations."
     },
     "sustainability": {
       "heading": "Sustainable operations",
-      "p": "We are committed to responsible mining and processing practices that minimize environmental impact while maximizing resource efficiency. Our operations include land rehabilitation programs, water recycling systems, and energy-saving equipment.",
+      "p": "We are committed to minimizing environmental impact while maximizing resource efficiency. Our operations include land rehabilitation programs, water recycling systems, and energy-efficient equipment.",
       "stats": {
         "stat1": { "value": "95%", "label": "Water recycling rate" },
         "stat2": { "value": "100%", "label": "Natural material" },
@@ -214,21 +214,22 @@
     }
   },
   "gallery": {
-    "description": "Explore our mining operations, processing facilities, and premium vermiculite products",
-    "subtitle": "See our extraction operations, processing plants and premium vermiculite products",
+    "title": "Images from our operations",
+    "description": "Explore our mining activities, processing plants and premium vermiculite products",
+    "subtitle": "See our mining operations, processing facilities and premium vermiculite products",
     "items": {
       "mining": {
         "title": "Mining operations",
-        "description": "Modern equipment extracting high-quality vermiculite ore",
+        "description": "Modern mining equipment extracting high-quality vermiculite ore",
         "category": "Mining"
       },
       "processing": {
-        "title": "Processing facility",
-        "description": "A state-of-the-art processing plant with advanced separation and expansion technology",
+        "title": "Processing plant",
+        "description": "A modern plant with advanced separation and expansion technology",
         "category": "Processing"
       },
       "concentrate": {
-        "title": "Vermiculite concentrate",
+        "title": "Concentrate vermiculite",
         "description": "Premium-grade concentrate ready for expansion or direct use",
         "category": "Products"
       },
@@ -245,18 +246,18 @@
     },
     "equipment": {
       "heading": "Our equipment and facilities",
-      "subtitle": "The latest technology powering our operations",
+      "subtitle": "The latest technology supporting our operations",
       "fleet": {
         "title": "Mining fleet",
         "desc": "Modern excavators, loaders and transport equipment for efficient and safe ore extraction"
       },
       "plant": {
         "title": "Processing plant",
-        "desc": "Advanced melting, screening and separation systems for concentrate production"
+        "desc": "Advanced roasting, screening and separation systems for premium concentrate production"
       },
       "furnaces": {
         "title": "Expansion furnaces",
-        "desc": "High-temperature furnaces with precise control for optimal vermiculite expansion"
+        "desc": "Precisely controlled high-temperature furnaces for optimal vermiculite expansion"
       }
     }
   },
@@ -266,7 +267,7 @@
   },
   "contact": {
     "title": "Contact us",
-    "subtitle": "Get in touch with our team for inquiries, requests or partnership opportunities",
+    "subtitle": "Get in touch for inquiries or partnership opportunities",
     "form": {
       "heading": "Send us a message",
       "nameLabel": "Your name *",
@@ -278,14 +279,14 @@
       "messageLabel": "Message *",
       "messagePlaceholder": "Tell us about your vermiculite requirements...",
       "submitBtn": "Send message",
-      "submittingBtn": "Sending..."
+      "submittingBtn": "Submitting..."
     },
     "info": {
       "heading": "Contact information",
       "location": {
         "title": "Our location",
-        "address1": "1. Republic of Karakalpakstan, Qoraozyak District, OPI Kuybak.",
-        "address2": "2. Shishish Plant address: Tashkent Region, Pskent, Lolaariq MFY, Lolaariq Street, Building 150",
+        "address1": "1. Republic of Karakalpakstan, Qoraozyak district, OPI Kuybak.",
+        "address2": "2. Expansion workshop address: Tashkent region, Pskent, Lolariq MFY, Lolariq street, building 150",
         "address3": "Country"
       },
       "phone": {
@@ -310,19 +311,19 @@
     },
     "toast": {
       "title": "Message sent!",
-      "description": "Thank you for contacting us. We will reply within 24 hours."
+      "description": "Thank you for contacting us. We will respond within 24 hours."
     }
   },
   "index": {
     "title": "Welcome to Blank App",
-    "subtitle": "Start your amazing project from here!"
+    "subtitle": "Start your amazing project here!"
   },
   "footer": {
     "rights": "All rights reserved",
-    "description": "Leading supplier of premium concentrate and expanded vermiculite for industrial and commercial sectors worldwide."
+    "description": "A leading supplier of concentrate and expanded vermiculite for industrial and commercial use worldwide."
   },
   "nav1": {
-    "usage": "Application areas"
+    "usage": "Areas of application"
   },
   "usagePage": {
     "hero": {
@@ -331,75 +332,75 @@
     },
     "whatIsVermiculite": {
       "title": "What is vermiculite?",
-      "description1": "Vermiculite is a natural mineral that expands into lightweight, accordion-like particles when heated. This unique expansion process gives the material excellent insulation, absorption, and light-weight properties.",
-      "description2": "The expanded structure of vermiculite provides a large surface area, making it ideal for thermal insulation, water retention, and use as a lightweight aggregate. It is inert, non-toxic and fire-resistant, suitable for construction, agriculture and industrial applications."
+      "description1": "Vermiculite is a natural mineral that, when heated, expands into lightweight, accordion-like particles. This unique expansion process gives the material excellent insulating, water-retention and lightweight properties.",
+      "description2": "The expanded structure of vermiculite provides a large surface area, making it ideal for thermal insulation, moisture retention and as a lightweight aggregate. It is inert, non-toxic and fire-resistant, suitable for construction, agriculture and industrial applications."
     },
     "cards": {
       "expansion": "Expansion ratio when heated",
-      "temperature": "Temperature resistance level",
+      "temperature": "Temperature resistance",
       "natural": "Natural and sustainable"
     },
     "applications": {
       "title": "Industrial applications",
-      "subtitle": "Discover how vermiculite is used across different sectors",
+      "subtitle": "Discover how vermiculite performs across different sectors",
       "items": [
         {
           "title": "Construction",
-          "description": "Used as a lightweight aggregate in concrete, tile mixes, acoustic panels and roofing materials. It provides excellent thermal insulation and reduces structural weight.",
+          "description": "Used as a lightweight aggregate in concrete, insulating boards, and roofing materials. Provides excellent thermal insulation and reduces structural load.",
           "benefits": [
             "Thermal and acoustic insulation",
-            "Production of lightweight concrete",
-            "Additive for tile and plaster mixes",
-            "Coatings for roofs and floors"
+            "Lightweight concretes",
+            "Additive for plasters and mortars",
+            "Roofing and flooring coverings"
           ]
         },
         {
           "title": "Agriculture and horticulture",
-          "description": "Improves soil structure by enhancing aeration, water retention and nutrient availability. Used in seed mixes, hydroponics and greenhouses.",
+          "description": "Improves soil structure: enhances aeration, moisture retention, and nutrient availability. Used in seed mixes, hydroponics and greenhouses.",
           "benefits": [
             "Improves aeration and drainage",
-            "Increases water retention",
-            "pH-neutral and sterile growing medium",
+            "Increases water-holding capacity",
+            "Sterile and pH-neutral growth medium",
             "Ideal for seed germination"
           ]
         },
         {
           "title": "Insulation",
-          "description": "Ideal for thermal insulation of buildings, industrial equipment and high-temperature applications. Its non-combustible nature makes it suitable for safe construction.",
+          "description": "Excellent thermal insulation for buildings, industrial equipment and high-temperature applications.",
           "benefits": [
-            "Excellent heat resistance",
+            "High thermal resistance",
             "Attic insulation",
             "Cavity wall insulation",
-            "High-temperature equipment insulation"
+            "High-temperature system insulation"
           ]
         },
         {
           "title": "Fireproof materials",
-          "description": "Key component in fire protection systems, fire-resistant panels, doors and coatings. It maintains structural integrity at very high temperatures.",
+          "description": "An important component in fire protection systems, fire-resistant panels, doors and coatings.",
           "benefits": [
             "Non-combustible and fire-resistant",
-            "Fire panels and doors",
-            "Additive to intumescent coatings",
-            "Fire barriers and safe enclosures"
+            "Fire doors and panels",
+            "Additive for intumescent coatings",
+            "Safe compartments and fire barriers"
           ]
         },
         {
           "title": "Metallurgy and industry",
-          "description": "Used in foundry work, metal casting and high-temperature insulation. It protects equipment and enables safe handling of molten materials.",
+          "description": "Used in casting, metalworking and high-temperature insulation. Protects equipment and enables safer handling of molten materials.",
           "benefits": [
             "Foundry insulation",
             "Riser and feeder coating insulation",
             "Furnace insulation",
-            "Applications in metallurgical processes"
+            "Applications in metal casting"
           ]
         },
         {
           "title": "Filtration and absorbents",
-          "description": "An effective filtration medium for liquids and gases. Used for spill absorption, chemical containment and environmental remediation.",
+          "description": "An effective filtration and absorbent material for liquids and gases.",
           "benefits": [
-            "Pool and water filtration",
+            "Water filtration",
             "Industrial liquid filtration",
-            "Oil and chemical absorption",
+            "Absorbs oils and chemicals",
             "Animal bedding and litter"
           ]
         }
@@ -410,29 +411,68 @@
       "items": [
         {
           "title": "Lightweight",
-          "desc": "Very low density makes it easy to handle and reduces structural loads in construction."
+          "desc": "Very low density, which reduces structural load and simplifies handling."
         },
         {
-          "title": "Fire resistant",
-          "desc": "With a decomposition point above 1100°C, it is ideal for fire protection."
+          "title": "Fire resistance",
+          "desc": "Non-combustible material with melting point above 1100°C."
         },
         {
           "title": "Thermal insulation",
-          "desc": "Reduces heat transfer and improves energy efficiency in buildings."
+          "desc": "Excellent insulating properties reduce heat transfer and improve energy efficiency."
         },
         {
           "title": "Water retention",
-          "desc": "Can retain 3–4 times its weight in water, beneficial for agricultural use."
+          "desc": "Can retain 3–4 times its weight in water, making it ideal for horticulture and agriculture."
         },
         {
-          "title": "Chemically inert",
-          "desc": "Neutral pH and non-reactive properties make it safe for plants, animals and sensitive materials."
+          "title": "Chemical inertness",
+          "desc": "pH-neutral and non-reactive, safe for plants, animals and sensitive materials."
         },
         {
           "title": "Environmentally friendly",
-          "desc": "A natural, sustainable and non-toxic mineral with no harmful environmental impact."
+          "desc": "Natural, sustainable and non-hazardous mineral."
         }
       ]
     }
+  },
+  "product": {
+    "description": "Premium vermiculite solutions for construction, agriculture, and industrial sectors.",
+    "Mahsulot1": "Product №1",
+    "malumot": "Our vermiculite concentrate is a minimally processed, high-quality material sourced directly from our mines. This high-purity mineral concentrate serves as a feedstock for expanded vermiculite and a basis for various industrial applications.",
+    "infotitel1": "Physical and chemical properties",
+    "info1": "Natural color ranging from golden-brown to dark brown",
+    "info2": "Layered structure resembling natural mica",
+    "info3": "High purity (95% and above vermiculite content)",
+    "info4": "Available in several grade specifications",
+    "info5": "Excellent expansion characteristics when heated",
+    "infotitel2": "Applications and purposes",
+    "info6": "Feedstock for expanded vermiculite production",
+    "info7": "Industrial processing and manufacturing",
+    "info8": "Specialized chemical applications",
+    "info9": "Export to processing facilities worldwide",
+    "Mahsulot2": "Product №2",
+    "malumot2": "Expanded vermiculite is produced by rapidly heating concentrate, causing it to expand up to 30 times its original volume. The result is a lightweight material with excellent insulating properties.",
+    "infotitel21": "Key advantages",
+    "info21": "Extremely lightweight (low bulk density)",
+    "info22": "Excellent thermal insulation properties",
+    "info23": "Fire-resistant and non-combustible",
+    "info24": "Chemically neutral and odorless",
+    "info25": "High water retention capacity",
+    "info26": "Environmentally safe and sustainable",
+    "infotitel22": "Application areas",
+    "info221": "Construction — insulation and lightweight concretes",
+    "info222": "Agriculture — soil improvement",
+    "info223": "Fire protection and passive fire systems",
+    "info224": "Industrial filtration and absorbent uses",
+    "info225": "Protective packaging",
+    "qadoqlash": "Packaging and specifications",
+    "qadoqlashDesc": "Flexible packaging options tailored to your requirements",
+    "post1": "Bulk shipments",
+    "posttitel1": "Large-volume container shipments for industrial customers and processing plants",
+    "post2": "Big bags",
+    "posttitel2": "Convenient 1-ton big bags ideal for construction sites and medium-scale processing",
+    "post3": "Custom packaging",
+    "posttitel3": "Tailored packaging solutions — bags, drums and specialized containers for specific applications"
   }
 }

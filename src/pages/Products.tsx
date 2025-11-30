@@ -18,7 +18,7 @@ const Products = () => {
             {t("nav.products")}
           </h1>
           <p className="text-xl text-center text-secondary-foreground/80 max-w-3xl mx-auto animate-slide-up">
-           Qurilish, qishloq xo‘jaligi va sanoat sohalari uchun premium darajadagi vermikulit yechimlari.
+           {t("product.description")}
           </p>
         </div>
       </section>
@@ -31,44 +31,41 @@ const Products = () => {
               <div className="flex items-center mb-4">
                 <Package className="h-8 w-8 text-primary mr-3" />
                 <span className="text-sm font-semibold text-primary uppercase tracking-wide">
-                 Mahsulot №1
+                 {t("product.Mahsulot1")}
                 </span>
               </div>
               <h2 className="text-4xl font-serif font-bold mb-6">
                 {t("home.concentrateVermiculite")}
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-               Bizning kontsentrat vermikulitimiz — konlarimizdan to‘g‘ridan-to‘g‘ri olinadigan, 
-               minimal darajada qayta ishlangan premium sifatli mahsulotdir. Ushbu yuqori tozalikdagi 
-               mineral kontsentrat kengaytirilgan vermikulit va turli sanoat sohalaridagi ilovalar uchun asos
-                bo‘lib xizmat qiladi.
+               {t("product.malumot")}
               </p>
 
               <Card className="mb-6 border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Jismoniy va kimyoviy xususiyatlar
+                    {t("product.infotitel1")}
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Oltin-jigarrangdan to quyuq jigarranggacha bo‘lgan tabiiy rang</span>
+                      <span>{t("product.info1")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Tabiiy sluda (mika)ga o‘xshash ko‘rinishga ega qatlamli tuzilma</span>
+                      <span>{t("product.info2")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Yuqori tozalik darajasi (95% va undan ortiq vermikulit tarkibi)</span>
+                      <span>{t("product.info3")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Bir nechta sifat (gradus) spetsifikatsiyalarida mavjud</span>
+                      <span>{t("product.info4")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Qizdirilganda ajoyib kengayish xususiyatlariga ega</span>
+                      <span>{t("product.info5")}</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -77,24 +74,24 @@ const Products = () => {
               <Card className="border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                   Qo‘llanish sohalari va maqsadlari
+                   {t("product.infotitel2")}
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Kengaytirilgan vermikulit ishlab chiqarish uchun xom ashyo</span>
+                      <span>{t("product.info6")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Sanoat ishlov berish va ishlab chiqarish</span>
+                      <span>{t("product.info7")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Maxsus kimyoviy ilovalar</span>
+                      <span>{t("product.info8")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Dunyo bo‘ylab qayta ishlash korxonalariga eksport qilish  </span>
+                      <span>{t("product.info9")}</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -132,47 +129,45 @@ const Products = () => {
               <div className="flex items-center mb-4">
                 <Package className="h-8 w-8 text-primary mr-3" />
                 <span className="text-sm font-semibold text-primary uppercase tracking-wide">
-                 Mahsulot №2
+                 {t("product.Mahsulot2")}
                 </span>
               </div>
               <h2 className="text-4xl font-serif font-bold mb-6">
                 {t("home.expandedVermiculite")}
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Kengaytirilgan vermikulit kontsentrat vermikulitni yuqori haroratda qizdirish orqali ishlab chiqariladi, 
-                bu esa uning hajmini dastlabki o‘lchamiga nisbatan 30 baravar kengayishiga olib keladi. 
-                Natijada engil, yuqori izolyatsiyalovchi xususiyatlarga ega material hosil bo‘ladi.
+                   {t("product.malumot2")}
               </p>
 
               <Card className="mb-6 border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Asosiy afzalliklar
+                    {t("product.infotitel21")}
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Juda yengil (kam zichlikka ega)</span>
+                      <span>{t("product.info21")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Ajoyib issiqlik izolyatsiyasi xususiyatlari</span>
+                      <span>{t("product.info22")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Olovga chidamli va yonmaydigan</span>
+                      <span>{t("product.info23")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Kimyoviy jihatdan neytral va hidlanmaydigan</span>
+                      <span>{t("product.info24")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Yuqori suv ushlab turish qobiliyati</span>
+                      <span>{t("product.info25")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Atrof-muhit uchun xavfsiz va barqaror</span>
+                      <span>{t("product.info26")}</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -181,29 +176,26 @@ const Products = () => {
               <Card className="border-2">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-bold mb-4 text-primary">
-                    Qo‘llanish sohalari
+                    {t("product.infotitel22")}
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Qurilishda izolyatsiya va yengil beton uchun</span>
+                       <span>{t("product.info221")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Bog‘dorchilik va qishloq xo‘jaligida tuproqni yaxshilash uchun</span>
+                      <span>{t("product.info223")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Olovdan himoya va yong‘inga qarshi tizimlar uchun</span>
+                     <span>{t("product.info224")}</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Sanoat filtratsiyasi va singdiruvchi ilovalar uchun</span>
+                     <span>{t("product.info225")}</span>
                     </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 flex-shrink-0" />
-                      <span>Qadoqlash va yetkazib berishda himoya qilish uchun</span>
-                    </li>
+                   
                   </ul>
                 </CardContent>
               </Card>
@@ -217,10 +209,10 @@ const Products = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif font-bold mb-4">
-             Qadoqlash va spetsifikatsiyalar
+             {t("product.qadoqlash")}
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-             Sizning maxsus talablaringizga moslash uchun moslashuvchan qadoqlash variantlari
+            {t("product.qadoqlashDesc")}
             </p>
           </div>
 
@@ -231,9 +223,9 @@ const Products = () => {
                 <img src={Qadoq1} alt="Katta hajmdagi jo' natmalar" className="w-full h-full object-cover" />
               </div>
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Katta hajmdagi jo‘natmalar</h3>
+                <h3 className="text-xl font-bold mb-3">{t("product.post1")}</h3>
                 <p className="text-muted-foreground">
-                  Sanoat mijozlari va qayta ishlash korxonalari uchun katta hajmdagi buyurtmalarni bulk konteynerlarda yetkazib berish
+                 {t("product.posttitel1")}
                 </p>
               </CardContent>
             </Card>
@@ -244,9 +236,9 @@ const Products = () => {
                 <img src={Qadoq3} alt="Katta sumkalar" className="w-full h-full object-cover" />
               </div>
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Katta sumkalar</h3>
+                <h3 className="text-xl font-bold mb-3">{t("product.post2")}</h3>
                 <p className="text-muted-foreground">
-                  Qurilish maydonchalari va o‘rta hajmdagi ishlov berish uchun ideal bo‘lgan qulay 1 tonnalik super sumkalar
+                  {t("product.posttitel2")}
                 </p>
               </CardContent>
             </Card>
@@ -257,9 +249,9 @@ const Products = () => {
                 <img src={Qadoq2} alt="Maxsus qadoqlash" className="w-full h-full object-cover" />
               </div>
               <CardContent className="pt-8">
-                <h3 className="text-xl font-bold mb-3">Maxsus qadoqlash</h3>
+                <h3 className="text-xl font-bold mb-3">{t("product.post3")}</h3>
                 <p className="text-muted-foreground">
-                  Maxsus ilovalar uchun sumkalar, barabanlar va ixtisoslashtirilgan konteynerlarni o‘z ichiga olgan moslashtirilgan qadoqlash yechimlari
+                 {t("product.posttitel3")}
                 </p>
               </CardContent>
             </Card>

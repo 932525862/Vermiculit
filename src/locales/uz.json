@@ -447,7 +447,51 @@
         }
       ]
     }
-  }
+  },
 
+  "product":{
+    "description": "Qurilish, qishloq xo‘jaligi va sanoat sohalari uchun premium darajadagi vermikulit yechimlari.",
+    "Mahsulot1":"Mahsulot №1",
+    "malumot":"Bizning kontsentrat vermikulitimiz — konlarimizdan to‘g‘ridan-to‘g‘ri olinadigan, minimal darajada qayta ishlangan premium sifatli mahsulotdir. Ushbu yuqori tozalikdagi mineral kontsentrat kengaytirilgan vermikulit va turli sanoat sohalaridagi ilovalar uchun asos bo‘lib xizmat qiladi.",
+    "infotitel1":"Jismoniy va kimyoviy xususiyatlar",
+    "info1":"Oltin-jigarrangdan to quyuq jigarranggacha bo‘lgan tabiiy rang",
+    "info2":"Tabiiy sluda (mika)ga o‘xshash ko‘rinishga ega qatlamli tuzilma",
+    "info3":"Yuqori tozalik darajasi (95% va undan ortiq vermikulit tarkibi)",
+    "info4":"Bir nechta sifat (gradus) spetsifikatsiyalarida mavjud",
+    "info5":"Qizdirilganda ajoyib kengayish xususiyatlariga ega",
+    "infotitel2":"Qo‘llanish sohalari va maqsadlari",
+    "info6":"Kengaytirilgan vermikulit ishlab chiqarish uchun xom ashyo",
+    "info7":"Sanoat ishlov berish va ishlab chiqarish",
+    "info8":"Maxsus kimyoviy ilovalar",
+    "info9":"Dunyo bo‘ylab qayta ishlash korxonalariga eksport qilish",
+
+    "Mahsulot2":"Mahsulot №1",
+    "malumot2":"Kengaytirilgan vermikulit kontsentrat vermikulitni yuqori haroratda qizdirish orqali ishlab chiqariladi, bu esa uning hajmini dastlabki o‘lchamiga nisbatan 30 baravar kengayishiga olib keladi. Natijada engil, yuqori izolyatsiyalovchi xususiyatlarga ega material hosil bo‘ladi.",
+    "infotitel21":"Asosiy afzalliklar",
+    "info21":"Juda yengil (kam zichlikka ega)",
+    "info22":"Ajoyib issiqlik izolyatsiyasi xususiyatlari",
+    "info23":"Olovga chidamli va yonmaydigan",
+    "info24":"Kimyoviy jihatdan neytral va hidlanmaydigan",
+    "info25":"Yuqori suv ushlab turish qobiliyati",
+    "info26":"Atrof-muhit uchun xavfsiz va barqaror",
+    "infotitel22":"Qo‘llanish sohalari",
+    "info221":"Qurilishda izolyatsiya va yengil beton uchun",
+    "info222":"Bog‘dorchilik va qishloq xo‘jaligida tuproqni yaxshilash uchun",
+    "info223":"Olovdan himoya va yong‘inga qarshi tizimlar uchun",
+    "info224":"Sanoat filtratsiyasi va singdiruvchi ilovalar uchun",
+    "info225":"Qadoqlash va yetkazib berishda himoya qilish uchun",
+
+    "qadoqlash":"Qadoqlash va spetsifikatsiyalar",
+    "qadoqlashDesc":"Sizning maxsus talablaringizga moslash uchun moslashuvchan qadoqlash variantlari",
+    "post1":"Katta hajmdagi jo‘natmalar",
+    "posttitel1":"Sanoat mijozlari va qayta ishlash korxonalari uchun katta hajmdagi buyurtmalarni bulk konteynerlarda yetkazib berish",
+    "post2":"Katta sumkalar",
+    "posttitel2":"Qurilish maydonchalari va o‘rta hajmdagi ishlov berish uchun ideal bo‘lgan qulay 1 tonnalik super sumkalar",
+    "post3":"Maxsus qadoqlash",
+    "posttitel3":"Maxsus ilovalar uchun sumkalar, barabanlar va ixtisoslashtirilgan konteynerlarni o‘z ichiga olgan moslashtirilgan qadoqlash yechimlari"
+
+    
+  }
+   
   
 }
